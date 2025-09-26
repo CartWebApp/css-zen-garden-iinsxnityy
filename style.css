@@ -1,11 +1,29 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
+
+header h1 {
+    text-align: center;
+    ;
+}
+
+header h2 {
+    text-align: center;
+}
+
+aside {
+    color: black;
+    cursor: none;
+
+}
+
+
+
+
+
+
 :root {
 background-color: #CADCAE;
 color: #FEF9F2;
-
 }
 
-:root {
 
-}
