@@ -10,20 +10,34 @@ header h2 {
     text-align: center;
 }
 
-aside {
-    color: black;
-    cursor: none;
+.summary{
+border: 2px solid rgb(255, 255, 255);
+border-radius: 30px;
+padding: 20px;
+
+}
+
+a, a abbr{
+color: #f61111d3;
 
 }
 
 
+.preamble{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
 
-
-
-
+}
 :root {
 background-color: #CADCAE;
-color: #FEF9F2;
+color: #000;
+background-image: url('images/pngtree-an-impressive-garden-wallpaper-with-a-path-leading-through-colorful-flowers-picture-image_2880595.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover
+
 }
 
 
