@@ -1,42 +1,110 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
 
-header h1 {
+.intro h1, .intro h2 {
+    
     text-align: center;
-    ;
+   text-shadow: 2px 1px black;
+   margin-top: 3%
+   
 }
 
-header h2 {
-    text-align: center;
-}
 
 .summary{
 border: 2px solid rgb(255, 255, 255);
-border-radius: 30px;
-padding: 20px;
+
+padding: 10px;
+text-align: right;
+margin-bottom: 1%;
+margin-left: 56%;
+margin-top: 2%;
+
+text-shadow: 2px 1px black;
 
 }
 
 a, a abbr{
-color: #f61111d3;
+color: #00ddffd3;
 
 }
 
-
-.preamble{
+.participation {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 30px;
     padding: 20px;
     text-align: center;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    margin-right: 0%;
 
 }
+
+
+
+
+
+.preamble{
+    border: 2px solid rgb(255, 255, 255);
+
+    padding: 45px;
+    text-align: center;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+   
+    margin-left: 60%;
+}
+
+.explanation {
+border: 2px solid rgb(255, 255, 255);
+
+padding: 20px;
+text-align: center;
+text-shadow: 2px 1px rgb(0, 0, 0) ;
+margin-left: 60%;
+margin-top: 2%;
+
+}
+
+aside {
+    
+    border: 2px solid rgb(255, 255, 255);
+  
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 1px rgb(0, 0, 0) ;
+  position: absolute;
+ 
+    grid-area: sidebar;
+    
+    }
+.page-wrapper
+ {
+    display: grid;
+    grid-template: 1fr 3fr / 1fr 3fr;
+    grid-template-areas: 
+        "sidebar intro"
+        "sidebar main";
+
+ 
+ }
+
+ .main {
+grid-area: main;
+
+ }
+
+.intro {
+grid-area: intro;
+
+}
+
 :root {
 background-color: #CADCAE;
-color: #000;
-background-image: url('images/pngtree-an-impressive-garden-wallpaper-with-a-path-leading-through-colorful-flowers-picture-image_2880595.jpg');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover
+color: #ffffff;
+background-image: url('images/serene-reflection-in-a-green-oasis-photo.jpeg');
+background-repeat: no-repeat ;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+
 
 }
 
