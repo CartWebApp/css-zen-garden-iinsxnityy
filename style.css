@@ -1,33 +1,23 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
-
-.intro h1, .intro h2 {
-    
+.intro h1,
+.intro h2 {
     text-align: center;
-   text-shadow: 2px 1px black;
-   margin-top: 3%
-   
+    text-shadow: 2px 1px black;
+    margin-top: 3%
 }
 
-
-.summary{
-border: 2px solid rgb(255, 255, 255);
-
-padding: 10px;
-text-align: right;
-margin-bottom: 1%;
-margin-left: 56%;
-margin-top: 2%;
-
-text-shadow: 2px 1px black;
-
+.summary {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-right: %;
+    text-shadow: 2px 1px black;
 }
-
-a, a abbr{
-color: #00ddffd3;
-
+a,
+a abbr {
+    color: #00ddffd3;
 }
-
 .participation {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 30px;
@@ -35,77 +25,54 @@ color: #00ddffd3;
     text-align: center;
     text-shadow: 2px 1px rgb(0, 0, 0);
     margin-right: 0%;
-
 }
 
 
-
-
-
-.preamble{
+.preamble {
     border: 2px solid rgb(255, 255, 255);
-
     padding: 45px;
     text-align: center;
     text-shadow: 2px 1px rgb(0, 0, 0);
-   
     margin-left: 60%;
 }
-
 .explanation {
-border: 2px solid rgb(255, 255, 255);
-
-padding: 20px;
-text-align: center;
-text-shadow: 2px 1px rgb(0, 0, 0) ;
-margin-left: 60%;
-margin-top: 2%;
-
-}
-
-aside {
-    
     border: 2px solid rgb(255, 255, 255);
-  
     padding: 20px;
     text-align: center;
-    text-shadow: 2px 1px rgb(0, 0, 0) ;
-  position: absolute;
- 
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    margin-left: 60%;
+    margin-top: 2%;
+}
+aside {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 1px rgb(0, 0, 0);
     grid-area: sidebar;
-    
-    }
-.page-wrapper
- {
+    height: 600px;
+    width: 200px;
+    margin-top: 36%;
+}
+.page-wrapper {
     display: grid;
     grid-template: 1fr 3fr / 1fr 3fr;
-    grid-template-areas: 
+    grid-template-areas:
         "sidebar intro"
         "sidebar main";
-
- 
- }
-
- .main {
-grid-area: main;
-
- }
-
+}
+.main {
+    grid-area: main;
+}
 .intro {
-grid-area: intro;
-
+    grid-area: intro;
 }
-
 :root {
-background-color: #CADCAE;
-color: #ffffff;
-background-image: url('images/serene-reflection-in-a-green-oasis-photo.jpeg');
-background-repeat: no-repeat ;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-
+    background-color: #CADCAE;
+    color: #ffffff;
+    background-image: url('images/green-and-white-marbled-coloring.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
-
-
