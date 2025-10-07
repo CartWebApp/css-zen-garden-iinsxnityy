@@ -1,57 +1,119 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-
-.intro h1,
-.intro h2 {
+p:not(.intro)h1,
+p:not(.intro)h2 {
+    font-size: 1em;
+    line-height: 1.5;
     text-align: center;
     text-shadow: 2px 1px black;
-    margin-top: 3%
+    margin-top: 3%;
+    margin-right: 0%;
+      font-style: italic;
 }
-
-.summary {
+h2:only-of-type {
+    text-align: left;
+     padding-left: -1px;}    
+.summary ~ div {
+    margin-top: 40px; 
+}
+[lang|=en] {
+    font-family: 'Times New Roman', Times, serif
+}
+a[title~="PDF"] {
+    font-weight: bold;
+}
+a[target="CSS"] {
+ padding-right: 18px;
+   background-repeat: no-repeat;
+    background-position: right center;
+}
+a:hover {
+color:rgb(248, 248, 248);
+transform: scale(2.0);
+color: white;
+a:focus	input:focus { border-color: rgb(204, 0, 255); }
+}
+footer {
+  text-align: center;
+}
+.summary:first-of-type{
+    background-color: rgba(255, 255, 255, 0); 
     border: 2px solid rgb(255, 255, 255);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    margin-right: %;
-    text-shadow: 2px 1px black;
+   border-radius: 30px;
+    margin-right: 1%;
+    margin-bottom: -1.9%;
+   margin-left: 10%;
 }
+p:only-of-type {
+    font-style: italic; 
+}
+p:last-of-type {
+    margin-bottom: 0;}
 a,
 a abbr {
     color: #00ddffd3;
 }
-.participation {
+.participation:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, 0); 
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 30px;
     padding: 20px;
     text-align: center;
-    text-shadow: 2px 1px rgb(0, 0, 0);
-    margin-right: 0%;
+      font-style: italic;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    text-align: justify;
+    width: 129%;
+   margin-left: -33%;
+   border-radius: 30px;
 }
+a[href*="CSS"]{
+ font-style: italic;
+    text-decoration: underline;
+}
+a[href$="HTML"] {
+    font-style: italic;
+}
+a[href^="FAQ"] {
+    text-decoration: none;
+}
+:active	a:active { color: rgb(251, 255, 0); }
 
-
-.preamble {
-    border: 2px solid rgb(255, 255, 255);
+.main :nth-last-child(1) {
+    margin-bottom: 50px;
+    border-bottom: 5px
+}
+.preamble a {
     padding: 45px;
     text-align: center;
-    text-shadow: 2px 1px rgb(0, 0, 0);
-    margin-left: 60%;
+    margin-left: 10%;
+    margin-right: 1%;
+      font-style: italic;
 }
-.explanation {
-    border: 2px solid rgb(255, 255, 255);
+.explanation::before {   
     padding: 20px;
     text-align: center;
-    text-shadow: 2px 1px rgb(0, 0, 0);
-    margin-left: 60%;
-    margin-top: 2%;
+   margin-top: -1%;
+   margin-left: -2%;
+   margin-right: 1%;
+     font-style: italic;
 }
 aside {
     border: 2px solid rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    text-shadow: 2px 1px rgb(0, 0, 0);
+    text-shadow: 2px 1px rgba(0, 132, 255, 0.486);
     grid-area: sidebar;
     height: 600px;
     width: 200px;
-    margin-top: 36%;
+    margin-top: 25%;
+    text-align: justify;
+    height: 27%;
+    width: 62%;
+     ::first-line{ font-size: .9em; font-weight: bold; }
+     :first-letter { font-size:  .9em; font-weight: bold;}
+     border-radius: 30px;   
 }
 .page-wrapper {
     display: grid;
@@ -60,19 +122,59 @@ aside {
         "sidebar intro"
         "sidebar main";
 }
+.benefits{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    text-align: justify;
+    width: 129%;
+   margin-left: -33%;
+     border-radius: 30px;
+}  
+.requirements {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-right:20%;
+      font-style: italic;
+    margin-top: 2%;
+    text-align: justify;
+    width: 129%;
+   margin-left: -33%;
+     border-radius: 30px;
+}
+a:visited {
+    color:rgb(0, 4, 255)
+}
+
+
 .main {
     grid-area: main;
 }
 .intro {
     grid-area: intro;
 }
-:root {
-    background-color: #CADCAE;
-    color: #ffffff;
-    background-image: url('images/green-and-white-marbled-coloring.jpg');
+
+
+:root :nth-last-of-type(7) {
+    background-color: #94a17f;
+    p { color: white}
+    color: white;
+    background-image: url('images/');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-
 }
+
+
+
+
+
+
+
+
+
